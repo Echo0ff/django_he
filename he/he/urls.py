@@ -24,4 +24,5 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     # 或者对于复杂的正则表达式，你可以使用re_path
     re_path(r'^$', views.index),
+    # 正则表达式注释
 ]
